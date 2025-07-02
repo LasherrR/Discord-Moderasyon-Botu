@@ -1,0 +1,77 @@
+{
+  "bot": {
+    "token": "BOT TOKEN BURAYA",
+    "prefix": "!",
+    "ownerID": "SAHIP_ID_BURAYA",
+    "botName": "Neva Development Bot",
+    "version": "2.0.0",
+    "status": "!yardım | Neva Development"
+  },
+  "colors": {
+    "primary": "#4A90E2",
+    "success": "#00FF00",
+    "error": "#FF0000",
+    "warning": "#FFA500",
+    "info": "#0099FF"
+  },
+  "permissions": {
+    "adminRole": "ADMIN_ROLE_ID",
+    "modRole": "MOD_ROLE_ID",
+    "muteRole": "MUTE_ROLE_ID",
+    "jailRole": "JAIL_ROLE_ID"
+  },
+  "channels": {
+    "modLog": "MODLOG_CHANNEL_ID",
+    "welcome": "WELCOME_CHANNEL_ID",
+    "leave": "LEAVE_CHANNEL_ID",
+    "ticket": "TICKET_CHANNEL_ID",
+    "suggestions": "SUGGESTIONS_CHANNEL_ID",
+    "reports": "REPORTS_CHANNEL_ID"
+  },
+  "settings": {
+    "autoRole": "AUTO_ROLE_ID",
+    "welcomeMessage": "🎉 {user} sunucumuza hoş geldin!",
+    "leaveMessage": "👋 {user} sunucumuzdan ayrıldı!",
+    "defaultMuteTime": 300000,
+    "defaultJailTime": 600000,
+    "maxWarnings": 3
+  },
+  "protection": {
+    "antiSpam": true,
+    "antiLink": true,
+    "antiBot": true,
+    "antiRaid": true,
+    "antiToken": true,
+    "antiMention": true,
+    "antiGhostPing": true,
+    "antiAlt": true,
+    "capslockEngel": true
+  },
+  "limits": {
+    "maxMentions": 5,
+    "maxEmojis": 10,
+    "maxCapsPercentage": 70,
+    "minAccountAge": 86400000
+  },
+  "logging": {
+    "enabled": true,
+    "logLevel": "info",
+    "saveToFile": true,
+    "maxLogSize": 10485760
+  },
+  "database": {
+    "enabled": false,
+    "type": "json",
+    "path": "./data/"
+  },
+  "features": {
+    "welcomeSystem": true,
+    "leaveSystem": true,
+    "ticketSystem": true,
+    "suggestionSystem": true,
+    "reportSystem": true,
+    "autoMod": true,
+    "statistics": true,
+    "analytics": true
+  }
+} 
